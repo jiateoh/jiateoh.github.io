@@ -6,7 +6,7 @@ main:
   #   url: /publications #perhaps _emily_publications now
   # - title: "CV"
   #   url: /pdfs/cv.pdf
-  - title: "Research"
-    url: /research
+  - title: "Experience"
+    url: /experience
   - title: "Resume/CV"
     url: /pdfs/resume.pdf
