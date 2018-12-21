@@ -261,3 +261,25 @@
     }
   }
 }
+/* jteoh: adding it custom bc my internet is out and I'm tethering off my phone/can't update gems easily. Taken from the actual git commit @ https://github.com/mmistakes/minimal-mistakes/commit/ba4a07d771dfc8d9d8614b45e4ed41bc36182265 */
+/*
+   Wide Pages
+   ========================================================================== */
+
+.wide .sidebar__right {
+  margin-bottom: 1em;
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    right: initial;
+    width: initial;
+    margin-right: initial;
+    padding-left: initial;
+    z-index: initial;
+  }
+
+  @include breakpoint($x-large) {
+    width: initial;
+    margin-right: initial;
+  }
+}

@@ -429,3 +429,30 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* jteoh: adding it custom bc my internet is out and I'm tethering off my phone/can't update gems easily. Taken from the actual git commit @ https://github.com/mmistakes/minimal-mistakes/commit/ba4a07d771dfc8d9d8614b45e4ed41bc36182265 */
+/*
+   Wide Pages
+   ========================================================================== */
+
+.wide {
+  .page {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
+    }
+  }
+}
