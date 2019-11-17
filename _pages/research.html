@@ -4,9 +4,13 @@ layout: single
 classes: wide  
 ---
 <h1>Research</h1>
-<h2>PerfDebug: Performance Debugging of Computational Skew in Data-Intensive Scalable Computing</h2>
+
+<h2><a href="{{ site.url }}/pdfs/socc2019-perfdebug-teoh.pdf">PerfDebug: Performance Debugging of Computational Skew in Data-Intensive Scalable Computing</a></h2>
 <p>
-	My current research project is a fine-grained performance provenance system that combines latency instrumentation with data provenance to investigate what we define as computational skew: skew in performance related not only to data skew (distribution), but also the computational latencies associated with individual records through program definition (e.g., user-defined functions). Although the current implementation uses Apache Spark, the underlying ideas and heuristics can be transferred to most other distributed cluster-computing frameworks. The project aims to provide application developers with the ability to answer computational skew queries such as <i>"What are the latencies and input records associated with individual output records?"</i> and <i>"Which input records have the largest impact on job performance and why?"</i>.
+	PerfDebug is a fine-grained performance provenance system that combines latency instrumentation with data provenance to investigate what we define as computational skew: skew in performance related not only to data skew (distribution), but also the computational latencies associated with individual records through program definition (e.g., user-defined functions). Although the current implementation uses Apache Spark, the underlying ideas and heuristics can be transferred to most other distributed cluster-computing frameworks. The project aims to provide application developers with the ability to answer computational skew queries such as <i>"What are the latencies and input records associated with individual output records?"</i> and <i>"Which input records have the largest impact on job performance and why?"</i>.
+	<br/>
+	<br/>
+	PerfDebug is published in the ACM Symposium on Cloud Computing 2019, which had a 24.8% acceptance rate. The full paper can be found <a href="{{ site.url }}/pdfs/socc2019-perfdebug-teoh.pdf">here</a>.
 </p>
 <h2>Nanoflow: Mobile Dataflow</h2>
 <p>
