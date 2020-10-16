@@ -5,12 +5,23 @@ classes: wide
 ---
 <h1>Research</h1>
 
+
+<h2><a href="{{ site.url }}/pdfs/FlowDebug_SoCC2020_camera-ready.pdf">Influence-Based Provenance for Dataflow Applications with Taint Propagation</a></h2>
+<p>
+	Debugging big data analytics often requires a root cause analysis to pinpoint the precise culprit records in an input dataset responsible for incorrect or anomalous output. Existing debugging or data provenance approaches do not track fine-grained control and data flows in user-defined application code; thus, the returned culprit data is often too large for manual inspection and expensive post-mortem analysis is required.
+<br/>
+<br/>
+	Given a suspicious set of target output records, FlowDebug is designed to identify a highly precise set of input records based on two key insights. First, it precisely tracks control and data flow within user-defined functions to propagate taints at a fine-grained level by inserting custom data abstractions through automated source to source transformation. Second, it introduces a novel notion of influence-based provenance for many-to-one dependencies to prioritize which input records are more responsible than others by analyzing the semantics of a user-defined function used for aggregation. By design, our approach does not require any modification to the framework’s runtime and can be applied to existing applications easily. FlowDebug significantly improves the precision of debugging results by up to 99.9 percentage points and avoids repetitive re-runs required for post-mortem analysis by a factor of 33 while incurring an instrumentation overhead of 0.4X - 6.1X on vanilla Spark. 
+<br/>
+<br/>
+	FlowDebug is published in the ACM Symposium on Cloud Computing 2020, which had a 24.4% acceptance rate. <a href="{{ site.url }}/pdfs/FlowDebug_SoCC2020_camera-ready.pdf">paper</a> <a href="{{ site.url }}/pdfs/flowdebug-poster.pdf">poster</a>
+</p>
 <h2><a href="{{ site.url }}/pdfs/socc2019-perfdebug-teoh.pdf">PerfDebug: Performance Debugging of Computational Skew in Data-Intensive Scalable Computing</a></h2>
 <p>
 	PerfDebug is a fine-grained performance provenance system that combines latency instrumentation with data provenance to investigate what we define as computational skew: skew in performance related not only to data skew (distribution), but also the computational latencies associated with individual records through program definition (e.g., user-defined functions). Although the current implementation uses Apache Spark, the underlying ideas and heuristics can be transferred to most other distributed cluster-computing frameworks. The project aims to provide application developers with the ability to answer computational skew queries such as <i>"What are the latencies and input records associated with individual output records?"</i> and <i>"Which input records have the largest impact on job performance and why?"</i>.
 	<br/>
 	<br/>
-	PerfDebug is published in the ACM Symposium on Cloud Computing 2019, which had a 24.8% acceptance rate. The full paper can be found <a href="{{ site.url }}/pdfs/socc2019-perfdebug-teoh.pdf">here</a>.
+	PerfDebug is published in the ACM Symposium on Cloud Computing 2019, which had a 24.8% acceptance rate. <a href="{{ site.url }}/pdfs/socc2019-perfdebug-teoh.pdf">paper</a> <a href="{{ site.url }}/pdfs/SoCC_2019-PerfDebug_Poster.pdf">poster</a>
 </p>
 <h2>Nanoflow: Mobile Dataflow</h2>
 <p>

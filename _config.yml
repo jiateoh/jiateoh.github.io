@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "
 
 # Site Settings
 locale                   : "en"
-title                    : "Jia (Jason) Teoh"
+title                    : "Jason (Jia) Teoh"
 title_separator          : "|"
-name                     : "Jia (Jason) Teoh"
+name                     : "Jason (Jia) Teoh"
 description              : ""
 url                      : "https://jiateoh.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -83,11 +83,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jia (Jason) Teoh"
+  name             : "Jason (Jia) Teoh"
   avatar           : "/assets/images/profile_ny_cropped.jpg"
-  bio              : "Ph.D. Student, UCLA"
+  bio              : "Ph.D. candidate in Big Data Debugging"
   location         : "Los Angeles"
-  email            : "jiateoh at gmail"
+  #email            : "jiateoh at gmail"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "jiateoh"
   gitlab           :
   google_plus      :
   keybase          :
@@ -107,7 +107,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "jasonteoh_cs"
   vine             :
   weibo            :
   xing             :
