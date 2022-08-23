@@ -85,8 +85,8 @@ analytics:
 author:
   name             : "Jason (Jia) Teoh"
   avatar           : "/assets/images/profile_ny_cropped.jpg"
-  bio              : "Ph.D. candidate in Big Data Debugging"
-  location         : "Los Angeles"
+  bio              : "Sr. Software Engineer at Twitter" #"Ph.D. candidate in Big Data Debugging"
+  location         : "Seattle"
   #email            : "jiateoh at gmail"
   uri              :
   bitbucket        :
