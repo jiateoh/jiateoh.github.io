@@ -2,11 +2,7 @@
 main:
   - title: "About"
     url: /
-  # - title: "Publications"
-  #   url: /publications #perhaps _emily_publications now
-  # - title: "CV"
-  #   url: /pdfs/cv.pdf
   - title: "Experience"
     url: /experience
   - title: "Resume/CV"
-    url: /pdfs/Teoh_Jia(Jason)_CV_09-2021.pdf
+    url: /pdfs/Teoh_Jia(Jason)_Resume_Databricks_Start.pdf
